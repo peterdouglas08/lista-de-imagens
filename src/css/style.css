@@ -1,0 +1,45 @@
+html {
+    font-family: 'Public Sans', sans-serif;
+}
+
+main{
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.obras {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.obras .pinturas {
+    position: relative;
+    width: 335px;
+    height: 431px;
+}
+
+.obras .pinturas img{
+    max-width: 100%;
+}
+
+.obras .pinturas .informacoes{
+    position: absolute;
+    bottom: 40px;  
+    left: 20px;  
+    color: #ffffff;
+}
+
+.obras .pinturas .informacoes .titulo{
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.obras .pinturas .informacoes .subtitulo{
+    font-size: 17px;
+    font-weight: 300;
+}
